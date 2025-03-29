@@ -287,3 +287,29 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+
+/* Añade esto en tu styles.css */
+.skill-card[class*="github"] {
+    background: rgba(24, 23, 23, 0.15);
+    border-color: rgba(24, 23, 23, 0.3);
+}
+
+.skill-card[class*="github"] .skill-icon {
+    color: #181717;
+}
+
+.skill-card {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.skill-card h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.skill-card p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin: 0;
+}
