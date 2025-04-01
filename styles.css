@@ -524,3 +524,25 @@ h1, h2, h3, h4, h5, h6 {
         padding: 1.5rem;
     }
 }
+
+/* Añade estos estilos a tu archivo styles.css */
+.contact-link[href$=".pdf"] {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 255, 136, 0.1);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.contact-link[href$=".pdf"]:hover {
+    background: rgba(0, 255, 136, 0.2);
+    transform: translateY(-2px);
+}
+
+.contact-link[href$=".pdf"]::before {
+    content: "\f1c1";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 0.5rem;
+    font-weight: 400;
+}
