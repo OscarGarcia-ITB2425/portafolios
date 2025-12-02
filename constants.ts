@@ -139,7 +139,7 @@ export const CONTACT_DATA: ContactMethod[] = [
   {
     title: "Currículum Vitae",
     value: "Ver/Descaregar CV",
-    href: "public/CV_Oscar_Tecnico_Ciberseguridad.pdf",
+    href: "/CV_Oscar_Tecnico_Ciberseguridad.pdf",
     icon: FileText,
     isDownload: true
   }
