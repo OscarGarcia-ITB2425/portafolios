@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
              <div className="w-full h-full rounded-full overflow-hidden relative group">
                 {/* Grayscale + High Contrast filter for "Cyberpunk" look on placeholder */}
                 <img 
-                  src="https://picsum.photos/seed/cyberpunk/400/400" 
+                  src="/avatar.png" 
                   alt="Avatar" 
                   className="w-full h-full object-cover filter grayscale contrast-125 brightness-90 group-hover:grayscale-0 transition-all duration-500"
                 />
